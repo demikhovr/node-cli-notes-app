@@ -1,0 +1,20 @@
+{
+  "name": "node-notes-app",
+  "version": "1.0.0",
+  "author": "demikhovr",
+  "description": "Node.js command line note-taking app",
+  "main": "app/index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "chalk": "2.4.2",
+    "yargs": "15.3.1"
+  },
+  "devDependencies": {
+    "eslint": "6.8.0",
+    "eslint-config-airbnb-base": "14.1.0",
+    "eslint-plugin-import": "2.20.2"
+  },
+  "license": "ISC"
+}
